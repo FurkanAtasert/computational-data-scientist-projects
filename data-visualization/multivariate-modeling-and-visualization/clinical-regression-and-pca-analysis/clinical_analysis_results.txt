@@ -1,0 +1,155 @@
+=============================================
+Correlation Analysis Results:
+=============================================
+Correlation Matrix:
+                  WBC         RBC          HB         HCT          MCV          MCH         MCHC
+WBC        1.00000000 -0.03685466 -0.08103484 -0.06630366 -0.024267258 -0.032984225 -0.047798956
+RBC       -0.03685466  1.00000000  0.36907379  0.52262320 -0.619045512 -0.669155223 -0.465004930
+HB        -0.08103484  0.36907379  1.00000000  0.93774661  0.418670327  0.397279508  0.160790709
+HCT       -0.06630366  0.52262320  0.93774661  1.00000000  0.298948961  0.194709384 -0.189049186
+MCV       -0.02426726 -0.61904551  0.41867033  0.29894896  1.000000000  0.963861357  0.359042401
+MCH       -0.03298423 -0.66915522  0.39727951  0.19470938  0.963861357  1.000000000  0.591936809
+MCHC      -0.04779896 -0.46500493  0.16079071 -0.18904919  0.359042401  0.591936809  1.000000000
+RDW        0.06187618  0.05689952 -0.27343724 -0.17793677 -0.169151717 -0.210415886 -0.277624551
+PLT        0.10239277  0.01248779 -0.04910953 -0.03724788 -0.019700761 -0.021840861 -0.023006357
+MPV        0.01162675 -0.17391709  0.12512377  0.15130099  0.391672654  0.324656636 -0.072110977
+Lenf       0.68434001 -0.13707633 -0.18488996 -0.18220211  0.002566078  0.004023205 -0.006525305
+Monosit    0.26503271 -0.13465400 -0.07713125 -0.10187536  0.054555591  0.069606017  0.075859766
+Nötrofil   0.35281514  0.04512122  0.02057980  0.03562032 -0.025429242 -0.032251401 -0.043007580
+Eozinofil  0.19312477 -0.12112932 -0.08014482 -0.13853073  0.010607509  0.057172544  0.162555641
+Bazofil    0.22618365 -0.02618707 -0.05824159 -0.09380470 -0.055218460 -0.014086011  0.097014864
+                   RDW          PLT         MPV         Lenf     Monosit     Nötrofil    Eozinofil
+WBC        0.061876176  0.102392769  0.01162675  0.684340014  0.26503271  0.352815138  0.193124769
+RBC        0.056899519  0.012487791 -0.17391709 -0.137076333 -0.13465400  0.045121224 -0.121129315
+HB        -0.273437245 -0.049109528  0.12512377 -0.184889963 -0.07713125  0.020579797 -0.080144824
+HCT       -0.177936774 -0.037247884  0.15130099 -0.182202114 -0.10187536  0.035620318 -0.138530728
+MCV       -0.169151717 -0.019700761  0.39167265  0.002566078  0.05455559 -0.025429242  0.010607509
+MCH       -0.210415886 -0.021840861  0.32465664  0.004023205  0.06960602 -0.032251401  0.057172544
+MCHC      -0.277624551 -0.023006357 -0.07211098 -0.006525305  0.07585977 -0.043007580  0.162555641
+RDW        1.000000000 -0.015715954  0.11247328  0.044251303 -0.04176862 -0.007543037  0.062106469
+PLT       -0.015715954  1.000000000 -0.07815234  0.056268102  0.01733830  0.084178108 -0.005984185
+MPV        0.112473279 -0.078152345  1.00000000  0.110335921 -0.10957051 -0.070265760  0.014209511
+Lenf       0.044251303  0.056268102  0.11033592  1.000000000  0.12396367 -0.074361675  0.199612333
+Monosit   -0.041768622  0.017338298 -0.10957051  0.123963671  1.00000000  0.245171631  0.117173961
+Nötrofil  -0.007543037  0.084178108 -0.07026576 -0.074361675  0.24517163  1.000000000 -0.005928073
+Eozinofil  0.062106469 -0.005984185  0.01420951  0.199612333  0.11717396 -0.005928073  1.000000000
+Bazofil    0.057814004 -0.007273435  0.04489708  0.235012144  0.14086893  0.103709556  0.260120160
+               Bazofil
+WBC        0.226183651
+RBC       -0.026187072
+HB        -0.058241588
+HCT       -0.093804700
+MCV       -0.055218460
+MCH       -0.014086011
+MCHC       0.097014864
+RDW        0.057814004
+PLT       -0.007273435
+MPV        0.044897080
+Lenf       0.235012144
+Monosit    0.140868934
+Nötrofil   0.103709556
+Eozinofil  0.260120160
+Bazofil    1.000000000
+
+png 
+  4 
+RStudioGD 
+        2 
+=============================================
+Multiple Linear Regression Analysis Results for YAS:
+=============================================
+In this model, we examine the effect of independent variables on predicting age.
+Beta coefficients show the effect of each independent variable on age.
+If the coefficient is positive, an increase in the related independent variable leads to an increase in age. If the coefficient is negative, the increase leads to a decrease in age.
+
+Call:
+lm(formula = YAS ~ WBC + RBC + HB + HCT + MCV + MCH + MCHC + 
+    RDW + PLT + MPV + Lenf + Monosit + Nötrofil + Eozinofil + 
+    Bazofil, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.7847 -1.1775  0.0348  1.1512  7.8699 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -15.159972  23.644240  -0.641 0.521562    
+WBC           0.242684   0.055385   4.382 1.30e-05 ***
+RBC           1.247191   0.653205   1.909 0.056509 .  
+HB           -2.283712   1.631321  -1.400 0.161854    
+HCT           0.777717   0.563968   1.379 0.168206    
+MCV          -0.027011   0.279429  -0.097 0.923012    
+MCH           0.201358   0.781905   0.258 0.796830    
+MCHC          0.539439   0.668346   0.807 0.419790    
+RDW          -0.184433   0.053166  -3.469 0.000545 ***
+PLT          -0.011229   0.004155  -2.703 0.006997 ** 
+MPV          -0.110441   0.083148  -1.328 0.184408    
+Lenf         -0.517031   0.069774  -7.410 2.72e-13 ***
+Monosit       0.056570   0.204555   0.277 0.782182    
+Nötrofil     -0.063105   0.059117  -1.067 0.286022    
+Eozinofil    -0.296989   0.332398  -0.893 0.371823    
+Bazofil      -4.756454   2.037230  -2.335 0.019756 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.233 on 983 degrees of freedom
+Multiple R-squared:  0.1636,	Adjusted R-squared:  0.1508 
+F-statistic: 12.82 on 15 and 983 DF,  p-value: < 2.2e-16
+
+
+=============================================
+Logistic Regression Analysis Results for TANI:
+=============================================
+In this model, we examine the effect of independent variables on predicting diagnosis (healthy or diseased).
+Beta coefficients show the effect of each independent variable on diagnosis.
+If the coefficient is positive, an increase in the related independent variable leads to an increase in disease risk. If the coefficient is negative, the increase leads to a decrease in disease risk.
+
+Call:
+glm(formula = TANI ~ WBC + RBC + HB + HCT + MCV + MCH + MCHC + 
+    RDW + PLT + MPV + Lenf + Monosit + Nötrofil + Eozinofil + 
+    Bazofil, family = binomial, data = data)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)
+(Intercept)  2.657e+01  3.770e+06       0        1
+WBC         -3.776e-08  8.832e+03       0        1
+RBC         -1.436e-06  1.042e+05       0        1
+HB           3.239e-06  2.601e+05       0        1
+HCT         -9.624e-07  8.993e+04       0        1
+MCV         -6.548e-07  4.456e+04       0        1
+MCH          1.757e-06  1.247e+05       0        1
+MCHC        -2.515e-06  1.066e+05       0        1
+RDW          6.408e-08  8.478e+03       0        1
+PLT          1.033e-07  6.625e+02       0        1
+MPV         -3.441e-07  1.326e+04       0        1
+Lenf         8.721e-08  1.113e+04       0        1
+Monosit      2.405e-08  3.262e+04       0        1
+Nötrofil    -1.446e-07  9.427e+03       0        1
+Eozinofil    3.209e-07  5.301e+04       0        1
+Bazofil      4.623e-06  3.249e+05       0        1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 0.0000e+00  on 998  degrees of freedom
+Residual deviance: 5.7958e-09  on 983  degrees of freedom
+AIC: 32
+
+Number of Fisher Scoring iterations: 25
+
+
+=============================================
+PCA Analysis Results:
+=============================================
+In this analysis, we reduce the data into a lower-dimensional space.
+PC1 and PC2 are the two principal components that explain the largest variance.
+These components are linear combinations of the original variables.
+
+Importance of components:
+                          PC1    PC2    PC3     PC4     PC5     PC6     PC7     PC8     PC9    PC10    PC11
+Standard deviation     1.7784 1.6252 1.3724 1.18162 1.07197 1.01910 0.96456 0.87144 0.84404 0.80653 0.67120
+Proportion of Variance 0.2108 0.1761 0.1256 0.09308 0.07661 0.06924 0.06203 0.05063 0.04749 0.04337 0.03003
+Cumulative Proportion  0.2108 0.3869 0.5125 0.60557 0.68218 0.75142 0.81344 0.86407 0.91156 0.95493 0.98496
+                          PC12    PC13    PC14    PC15
+Standard deviation     0.43406 0.18885 0.03253 0.02104
+Proportion of Variance 0.01256 0.00238 0.00007 0.00003
+Cumulative Proportion  0.99752 0.99990 0.99997 1.00000
