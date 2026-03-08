@@ -1,0 +1,742 @@
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 1 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         89    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         89    
+Entity 1.WaitTime                           .18401     (Insuf)    .00000     3.8121         89    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         89    
+Entity 1.OtherTime                          5.6044     (Insuf)    2.2225     9.4718         89    
+Entity 1.TotalTime                          5.7884     (Insuf)    2.4472     12.107         89    
+Gise_Kap.Queue.WaitingTime                  .18401     (Insuf)    .00000     3.8121         89    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.0732     (Insuf)    .00000     5.0000     .00000    
+Gise.NumberBusy                             1.0391     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .34638     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .03412     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           89.000    
+Entity 1.NumberOut                          89.000    
+Gise.NumberSeized                           89.000    
+Gise.ScheduledUtilization                   .34638    
+System.NumberOut                            89.000    
+
+Beginning replication 2 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 2 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000        104    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        104    
+Entity 1.WaitTime                           .20487     (Insuf)    .00000     4.6993        104    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        104    
+Entity 1.OtherTime                          5.4433     (Insuf)    2.6239     9.8782        104    
+Entity 1.TotalTime                          5.6482     (Insuf)    2.6239     10.951        104    
+Gise_Kap.Queue.WaitingTime                  .20487     (Insuf)    .00000     4.6993        104    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.2237     (Insuf)    .00000     6.0000     .00000    
+Gise.NumberBusy                             1.1793     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .39313     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .04439     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           104.00    
+Entity 1.NumberOut                          104.00    
+Gise.NumberSeized                           104.00    
+Gise.ScheduledUtilization                   .39313    
+System.NumberOut                            104.00    
+
+Beginning replication 3 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 3 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000        116    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        116    
+Entity 1.WaitTime                           .41991     (Insuf)    .00000     7.1614        116    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        116    
+Entity 1.OtherTime                          5.4159     (Insuf)    2.2558     9.7774        116    
+Entity 1.TotalTime                          5.8358     (Insuf)    2.2558     13.166        116    
+Gise_Kap.Queue.WaitingTime                  .41991     (Insuf)    .00000     7.1614        116    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.4103     (Insuf)    .00000     7.0000     .00000    
+Gise.NumberBusy                             1.3088     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .43629     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .10148     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           116.00    
+Entity 1.NumberOut                          116.00    
+Gise.NumberSeized                           116.00    
+Gise.ScheduledUtilization                   .43629    
+System.NumberOut                            116.00    
+
+Beginning replication 4 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 4 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         98    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         98    
+Entity 1.WaitTime                           .15091     (Insuf)    .00000     3.3505         98    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         98    
+Entity 1.OtherTime                          5.4692     (Insuf)    2.2706     9.4929         98    
+Entity 1.TotalTime                          5.6201     (Insuf)    2.2706     11.067         98    
+Gise_Kap.Queue.WaitingTime                  .14789     (Insuf)    .00000     3.3505        100    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1617     (Insuf)    .00000     4.0000     2.0000    
+Gise.NumberBusy                             1.1309     (Insuf)    .00000     3.0000     2.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .37698     (Insuf)    .00000     1.0000     .66667    
+Gise_Kap.Queue.NumberInQueue                .03081     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           100.00    
+Entity 1.NumberOut                          98.000    
+Gise.NumberSeized                           100.00    
+Gise.ScheduledUtilization                   .37698    
+System.NumberOut                            98.000    
+
+Beginning replication 5 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 5 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000        104    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        104    
+Entity 1.WaitTime                           .16296     (Insuf)    .00000     4.1168        104    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        104    
+Entity 1.OtherTime                          5.0925     (Insuf)    2.2823     9.2191        104    
+Entity 1.TotalTime                          5.2554     (Insuf)    2.2823     10.829        104    
+Gise_Kap.Queue.WaitingTime                  .16141     (Insuf)    .00000     4.1168        105    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1518     (Insuf)    .00000     5.0000     1.0000    
+Gise.NumberBusy                             1.1165     (Insuf)    .00000     3.0000     1.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .37218     (Insuf)    .00000     1.0000     .33333    
+Gise_Kap.Queue.NumberInQueue                .03531     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           105.00    
+Entity 1.NumberOut                          104.00    
+Gise.NumberSeized                           105.00    
+Gise.ScheduledUtilization                   .37218    
+System.NumberOut                            104.00    
+
+Beginning replication 6 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 6 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         98    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         98    
+Entity 1.WaitTime                           .42879     (Insuf)    .00000     6.6688         98    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         98    
+Entity 1.OtherTime                          5.4463     (Insuf)    2.2000     9.6887         98    
+Entity 1.TotalTime                          5.8751     (Insuf)    2.3013     14.372         98    
+Gise_Kap.Queue.WaitingTime                  .42879     (Insuf)    .00000     6.6688         98    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1995     (Insuf)    .00000     7.0000     .00000    
+Gise.NumberBusy                             1.1119     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .37066     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .08755     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           98.000    
+Entity 1.NumberOut                          98.000    
+Gise.NumberSeized                           98.000    
+Gise.ScheduledUtilization                   .37066    
+System.NumberOut                            98.000    
+
+Beginning replication 7 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 7 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         97    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         97    
+Entity 1.WaitTime                           .02360     (Insuf)    .00000     1.8187         97    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         97    
+Entity 1.OtherTime                          5.5229     (Insuf)    2.5899     9.3035         97    
+Entity 1.TotalTime                          5.5465     (Insuf)    2.5899     9.3035         97    
+Gise_Kap.Queue.WaitingTime                  .02360     (Insuf)    .00000     1.8187         97    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1208     (Insuf)    .00000     4.0000     .00000    
+Gise.NumberBusy                             1.1160     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .37203     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .00477     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           97.000    
+Entity 1.NumberOut                          97.000    
+Gise.NumberSeized                           97.000    
+Gise.ScheduledUtilization                   .37203    
+System.NumberOut                            97.000    
+
+Beginning replication 8 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 8 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         81    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         81    
+Entity 1.WaitTime                           .01027     (Insuf)    .00000     .83151         81    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         81    
+Entity 1.OtherTime                          5.5810     (Insuf)    2.5207     9.8209         81    
+Entity 1.TotalTime                          5.5912     (Insuf)    2.5207     9.8209         81    
+Gise_Kap.Queue.WaitingTime                  .01014     (Insuf)    .00000     .83151         82    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .94617     (Insuf)    .00000     4.0000     1.0000    
+Gise.NumberBusy                             .94444     (Insuf)    .00000     3.0000     1.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .31481     (Insuf)    .00000     1.0000     .33333    
+Gise_Kap.Queue.NumberInQueue                .00173     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           82.000    
+Entity 1.NumberOut                          81.000    
+Gise.NumberSeized                           82.000    
+Gise.ScheduledUtilization                   .31481    
+System.NumberOut                            81.000    
+
+Beginning replication 9 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 9 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         95    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         95    
+Entity 1.WaitTime                           .08190     (Insuf)    .00000     3.0487         95    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         95    
+Entity 1.OtherTime                          5.1754     (Insuf)    2.3935     9.2356         95    
+Entity 1.TotalTime                          5.2573     (Insuf)    2.3935     11.916         95    
+Gise_Kap.Queue.WaitingTime                  .08105     (Insuf)    .00000     3.0487         96    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.0561     (Insuf)    .00000     5.0000     1.0000    
+Gise.NumberBusy                             1.0399     (Insuf)    .00000     3.0000     1.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .34666     (Insuf)    .00000     1.0000     .33333    
+Gise_Kap.Queue.NumberInQueue                .01621     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           96.000    
+Entity 1.NumberOut                          95.000    
+Gise.NumberSeized                           96.000    
+Gise.ScheduledUtilization                   .34666    
+System.NumberOut                            95.000    
+
+Beginning replication 10 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 10 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         84    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         84    
+Entity 1.WaitTime                           .12694     (Insuf)    .00000     3.1238         84    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         84    
+Entity 1.OtherTime                          5.0010     (Insuf)    2.3931     9.0930         84    
+Entity 1.TotalTime                          5.1280     (Insuf)    2.3931     9.2149         84    
+Gise_Kap.Queue.WaitingTime                  .12399     (Insuf)    .00000     3.1238         86    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .90784     (Insuf)    .00000     5.0000     2.0000    
+Gise.NumberBusy                             .88563     (Insuf)    .00000     3.0000     2.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .29521     (Insuf)    .00000     1.0000     .66667    
+Gise_Kap.Queue.NumberInQueue                .02221     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           86.000    
+Entity 1.NumberOut                          84.000    
+Gise.NumberSeized                           86.000    
+Gise.ScheduledUtilization                   .29521    
+System.NumberOut                            84.000    
+
+Beginning replication 11 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 11 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         99    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         99    
+Entity 1.WaitTime                           .14799     (Insuf)    .00000     3.8727         99    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         99    
+Entity 1.OtherTime                          5.2104     (Insuf)    2.2298     9.0522         99    
+Entity 1.TotalTime                          5.3584     (Insuf)    2.2298     11.464         99    
+Gise_Kap.Queue.WaitingTime                  .14364     (Insuf)    .00000     3.8727        102    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1172     (Insuf)    .00000     5.0000     3.0000    
+Gise.NumberBusy                             1.0867     (Insuf)    .00000     3.0000     3.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .36225     (Insuf)    .00000     1.0000     1.0000    
+Gise_Kap.Queue.NumberInQueue                .03052     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           102.00    
+Entity 1.NumberOut                          99.000    
+Gise.NumberSeized                           102.00    
+Gise.ScheduledUtilization                   .36225    
+System.NumberOut                            99.000    
+
+Beginning replication 12 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 12 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         84    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         84    
+Entity 1.WaitTime                           .22560     (Insuf)    .00000     4.0476         84    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         84    
+Entity 1.OtherTime                          5.2986     (Insuf)    2.2531     9.4526         84    
+Entity 1.TotalTime                          5.5242     (Insuf)    2.2531     9.4526         84    
+Gise_Kap.Queue.WaitingTime                  .22560     (Insuf)    .00000     4.0476         84    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .96674     (Insuf)    .00000     5.0000     .00000    
+Gise.NumberBusy                             .92726     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .30909     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .03948     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           84.000    
+Entity 1.NumberOut                          84.000    
+Gise.NumberSeized                           84.000    
+Gise.ScheduledUtilization                   .30909    
+System.NumberOut                            84.000    
+
+Beginning replication 13 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 13 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         99    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         99    
+Entity 1.WaitTime                           .18103     (Insuf)    .00000     4.2487         99    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         99    
+Entity 1.OtherTime                          5.3147     (Insuf)    2.3723     9.5016         99    
+Entity 1.TotalTime                          5.4957     (Insuf)    2.3723     13.165         99    
+Gise_Kap.Queue.WaitingTime                  .18103     (Insuf)    .00000     4.2487         99    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.1335     (Insuf)    .00000     5.0000     .00000    
+Gise.NumberBusy                             1.0961     (Insuf)    .00000     3.0000     .00000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .36539     (Insuf)    .00000     1.0000     .00000    
+Gise_Kap.Queue.NumberInQueue                .03734     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           99.000    
+Entity 1.NumberOut                          99.000    
+Gise.NumberSeized                           99.000    
+Gise.ScheduledUtilization                   .36539    
+System.NumberOut                            99.000    
+
+Beginning replication 14 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 14 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         94    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         94    
+Entity 1.WaitTime                           .17914     (Insuf)    .00000     2.5116         94    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         94    
+Entity 1.OtherTime                          5.2608     (Insuf)    2.6177     9.3182         94    
+Entity 1.TotalTime                          5.4400     (Insuf)    2.6177     9.3182         94    
+Gise_Kap.Queue.WaitingTime                  .17541     (Insuf)    .00000     2.5116         96    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.0796     (Insuf)    .00000     5.0000     2.0000    
+Gise.NumberBusy                             1.0445     (Insuf)    .00000     3.0000     2.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .34819     (Insuf)    .00000     1.0000     .66667    
+Gise_Kap.Queue.NumberInQueue                .03508     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           96.000    
+Entity 1.NumberOut                          94.000    
+Gise.NumberSeized                           96.000    
+Gise.ScheduledUtilization                   .34819    
+System.NumberOut                            94.000    
+
+Beginning replication 15 of 15
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                  Summary for Replication 15 of 15
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         86    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         86    
+Entity 1.WaitTime                           .09956     (Insuf)    .00000     3.4622         86    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         86    
+Entity 1.OtherTime                          5.3551     (Insuf)    2.6130     9.6510         86    
+Entity 1.TotalTime                          5.4546     (Insuf)    2.6130     12.598         86    
+Gise_Kap.Queue.WaitingTime                  .09842     (Insuf)    .00000     3.4622         87    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .98250     (Insuf)    .00000     5.0000     1.0000    
+Gise.NumberBusy                             .96466     (Insuf)    .00000     3.0000     1.0000    
+Gise.NumberScheduled                        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Gise.Utilization                            .32155     (Insuf)    .00000     1.0000     .33333    
+Gise_Kap.Queue.NumberInQueue                .01784     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           87.000    
+Entity 1.NumberOut                          86.000    
+Gise.NumberSeized                           87.000    
+Gise.ScheduledUtilization                   .32155    
+System.NumberOut                            86.000    
+
+
+                                      ARENA Simulation Results
+                                      Furkan - License: STUDENT
+
+                                 Output Summary for 15 Replications
+
+Project: Unnamed Project                                             Run execution date : 6/18/2025
+Analyst: Furkan                                                      Model revision date: 6/18/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           96.066     5.0866     82.000     116.00     15
+Entity 1.NumberOut                          95.200     5.1539     81.000     116.00     15
+Gise.NumberSeized                           96.066     5.0866     82.000     116.00     15
+Gise.ScheduledUtilization                   .35539     .01994     .29521     .43629     15
+System.NumberOut                            95.200     5.1539     81.000     116.00     15
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.
