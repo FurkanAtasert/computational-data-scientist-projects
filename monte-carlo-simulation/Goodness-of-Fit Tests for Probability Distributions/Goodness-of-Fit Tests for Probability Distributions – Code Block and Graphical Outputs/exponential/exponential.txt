@@ -1,0 +1,16 @@
+EXPONENTIAL(λ=0.25) UYGUNLUK TESTI
+---------------------------------
+Senaryo:
+ - İki arıza arasındaki ortalama süre 4 saat.
+ - 80 arıza aralığı.
+
+Kolmogorov-Smirnov Testi:
+ - KS değeri: 0.1292
+ - p-değeri: 0.1265
+
+Karar: H0 reddedilemez (veri Exponential(0.25) dağılımına uygundur).
+
+Açıklama:
+Üstel dağılım özellikle bekleme/ariza aralıkları için sık kullanılır.
+p-değeri >= 0.05 ise bu dağılıma aykırı bir durum gözlenmemiş demektir.
+

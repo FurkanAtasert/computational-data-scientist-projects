@@ -1,0 +1,18 @@
+POISSON(λ=4) UYGUNLUK TESTI
+---------------------------------
+Senaryo:
+ - Çağrı merkezine saatlik ortalama 4 şikayet (λ=4).
+ - 100 saatlik veri toplandı.
+
+Ki-Kare Uygunluk Testi:
+ - Ki-Kare istatistiği: 14.4976
+ - p-değeri: 0.1515
+
+Karar: H0 reddedilemez (veri Poisson(4) dağılımına uygundur).
+
+Açıklama:
+Poisson dağılımı sonsuz desteklidir. Beklenmeyen yüksek değerler
+nadir de olsa gelebilir. SciPy chisquare fonksiyonunun hassasiyeti yüzünden,
+gözlenen ve beklenen toplamları ufak bir oranda normalleştirdik.
+p-değeri < 0.05 ise H0 reddedilir.
+

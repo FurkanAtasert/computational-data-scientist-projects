@@ -1,0 +1,18 @@
+BINOM(15, 0.25) UYGUNLUK TESTI
+---------------------------------
+Senaryo:
+ - Günde 15 e-posta gönderiliyor.
+ - Tıklanma olasılığı: p=0.25
+ - 100 günlük veri.
+
+Ki-Kare Uygunluk Testi:
+ - Ki-Kare istatistiği: 3.8022
+ - Serbestlik derecesi: 14
+ - p-değeri: 0.9965
+
+Karar: H0 reddedilemez (veri Binom(15,0.25) dağılımına uygundur).
+
+Açıklama:
+p-değeri >= 0.05 ise, verinin bu binom dağılımından geliyor olma ihtimali
+istatistiksel olarak reddedilemez. p-değeri < 0.05 çıkarsa, H0 reddedilir.
+

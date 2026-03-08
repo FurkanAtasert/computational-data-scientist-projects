@@ -1,0 +1,16 @@
+UNIFORM(50,60) UYGUNLUK TESTI
+---------------------------------
+Senaryo:
+ - Metal çubuklar 50-60 cm arasında (eş olasılık).
+ - 100 adet ölçüm.
+
+Kolmogorov-Smirnov Testi:
+ - KS değeri: 0.0471
+ - p-değeri: 0.9720
+
+Karar: H0 reddedilemez (veri Uniform(50,60) dağılımına uygundur).
+
+Açıklama:
+KS testi, verinin ampirik CDF'i ile teorik Uniform(50,60) CDF'i arasındaki
+en büyük farkı ölçer. p-değeri < 0.05 olursa H0 reddedilir.
+

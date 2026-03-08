@@ -1,0 +1,16 @@
+NORMAL(70,10) UYGUNLUK TESTI
+---------------------------------
+Senaryo:
+ - Öğrenci sınav puanları ort. 70, std sapma 10.
+ - 150 öğrencinin notları.
+
+Kolmogorov-Smirnov Testi:
+ - KS değeri: 0.0934
+ - p-değeri: 0.1368
+
+Karar: H0 reddedilemez (veri Normal(70,10) dağılımına uygundur).
+
+Açıklama:
+Eğer p-değeri < 0.05 ise normal dağılımdan istatistiksel olarak anlamlı
+biçimde sapma olduğu söylenebilir. Ayrıca Q-Q plot da incelenmelidir.
+
