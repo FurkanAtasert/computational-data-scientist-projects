@@ -1,0 +1,36 @@
+Uzman Sistemler ve Doğal Dil İşleme
+NLP yani Doğal Dil İşleme, doğal dillerin kurallı yapısının çözümlenerek anlaşılması veya yeniden üretilmesi amacını taşır.Bu çözümlemenin insana getireceği kolaylıklar, yazılı dokümanların otomatik çevrilmesi, soru-cevap makineleri, otomatik konuşma ve komut anlama, konuşma sentezi, konuşma üretme, otomatik metin özetleme, bilgi sağlama gibi birçok başlıkla özetlenebilir. Bilgisayar teknolojisinin yaygın kullanımı, bu başlıklardan üretilen uzman yazılımların gündelik hayatımızın her alanına girmesini sağlamıştır. Örneğin, tüm kelime işlem yazılımları birer imlâ düzeltme aracı taşır. Bu araçlar aslında yazılan metni çözümleyerek dil kurallarını denetleyen doğal dil işleme yazılımlarıdır.
+
+Batı dillerinde SAPI (Microsoft şirketinin konuşma sentezleyici üretmek amacı ile satışa sunduğu geliştirici program) tabanlı Konuşma sentezleyici bileşenleri, yazılımcıların multimedia (çoklu ortam) sunuları hazırlamaları için hizmete sunulmuştur.
+
+Konuşma ve komut anlama yazılımları ise gelecekte insan ve bilgisayar arasındaki klavye, fare gibi veri girişi aygıtlarını ortadan kaldıracak yazılımlardır. Bu gelişmeler makine-insan iletişiminde yeni ve devrimci değişimlere yol açacak ve bilgisayarların daha çok insan tarafından kabul görmesine yol açacaktır.
+
+Yapay Zekâ ve Doğal Dil İşleme
+Gelecekte, konuşma sentezleyiciler ve konuşma anlama alanındaki gelişmeler ve makine-insan iletişiminin gelişmesi, insanın makineden beklentilerini yükseltecektir. İnsanlar makinelerin kendisini anlamalarını isteyecek, karmaşık kullanımı olan makineler pazar bulamayacaktır. Giderek gelişen ve insanı anlayan makinelerin daha zeki olması insanın yaşam kalitesini yükselteceğinden, vazgeçilmez olması kaçınılmazdır. Zeki makine kavramı, yapay zekâ çalışmalarının hızlanmasına yol açmıştır. Geleceğin en önemli sektörlerinden biri olan yapay zekâ ile insanın iletişim kuracağı tek araç dildir.
+
+Dil, insanoğlunun uygarlaşmasını sağlamakla kalmamış, onun zekâsının doğada daha önce görülmemiş şekilde parlamasını sağlamıştır. Kültür dediğimiz insanlık birikimi, dil kullanan ve iletişim kuran insanın sosyalleşme sürecinin ürünüdür.
+
+Dilin Matematik Modeli
+Dilin işlenmek üzere çözümlenebilmesi için, matematik modelinin oluşturulması gerekmekteydi.
+
+Genişletilmiş Geçiş Ağları
+ATN Genişletilmiş Geçiş Ağları (Augmented Transition Network),Woods tarafından 1970 ve 1973 yılları arasında geliştirilmiş bir yaklaşımdır.
+
+Genişletilmiş geçiş ağları (GGA) üç bileşenden oluşur:
+
+En az başlangıç ve son (/s) durumları olan sonlu sayıdaki durumlar kümesi,
+Belli bir metindeki mümkün olan harflerden oluşan alfabe (e),
+Sonlu sayıdaki bir durumdan diğer bir duruma geçişi sağlayacak geçişler kümesi.
+Genişletilmiş geçiş ağlarında, bir durumdan diğer bir duruma geçmek için gerekli harf okunur ve bu harf geçilecek olan duruma geçmek için gereken harfle karşılaştırılır; uygun ise diğer duruma geçilir. Geçiş ağlarında doğru bir yol, bir başlangıç durumundan başlayıp, son duruma ulaşan geçişler sağlandığında tamamlanır. Harflerin birbirine eklenmesiyle oluşan metin, ağın kabul etmesi için verilen metin ise, bu metin ağ tarafından kabul edilmiş demektir.
+
+Yanda: "Bal" metnini kabul eden Genişletilmiş Geçiş Ağı.
+
+Fonetik ve fonoloji
+Fonetik, konuşulurken, dil, gırtlak, ses telleri, damak, dişler ve dudaklar ile çıkarılan sesleri ve bu seslerin dil ile olan ilişkilerini tanımlamak için kullanılan bir terimdir.Doğal dillerde anlam ayırıcı olarak kullanılan en küçük ses fondur (phon) dur. Fonetik terimi bu kökten gelmektedir.
+
+Fon kavramı evrensel değildir ve her dilde farklı seslere kaşılık gelir. Farklı dillerdeki fonların tek ortak özelliği ayırıcı temel sesler olmalarıdır.Sesle ifade edilen dili, yani konuşmayı kaydetmek için yazı icad edilmişti.Konuşmayı yazı ile ifade etmek için ses birim veya fonları harflerle eşleştirmek gerekmekteydi. Bazı dillerde, örneğin Türkçe, Fince ve Japoncada, sesbirimler doğrudan harflere karşılık gelmektedir. Bu tip dillere fonetik diller denir.İngilizce, Almanca, Fransızca gibi dillerde ise Fonlar harflere kaşılık gelmezler.Bu yaklaşımın yerine uluslararası olarak geçerliliği olan fonetik bir alfabe ses birimleri ifade etmek için kullanılır. Ses birimlerin simgesel olarak ifade edilmesi sonucu olusan simgeler fonem (phoneme) olarak adlandırılır. Bir başka deyişle aslında fonemlerin seslendirilmesiyle ses birimler (phon) oluşur.
+
+Dildeki ses birimler belirlenirken iki yaklaşım kullanılır.Bunlar,
+
+Parçalı sesbirimler (segmental) ve,
+Parçalarüstü ses birimler (supra-segmental, prosodic) dir.
