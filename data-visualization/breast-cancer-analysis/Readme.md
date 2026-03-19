@@ -23,7 +23,6 @@ The scripts are designed as separate analyses so that each one can be run indepe
 Place one of the following Excel files in the same folder as the scripts:
 
 - `breast_cancer_data.xlsx`
-- `Breast_Cancer.xlsx`
 
 ## Analysis 1: Breast Cancer Clustering Analysis
 
